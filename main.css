@@ -3,46 +3,43 @@
 	padding: 0;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 85%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
 	margin: 0 auto;
-	width: 410px;
-	height: 160px;
-	padding: 20px 0;	
-	border: 2px solid blue;
+	padding: 15px 20px;
+	border: 3px solid blue;
 }
-h1 {
-	font-size: 140%;
-	margin-left: 15px;
-	margin-bottom: 10px;
+aside {
+	margin: 50px 0 10px 0;
+	width: 175px;
+	float: right;
 }
-/* the styles for the carousel */
-.button_panel	{
-	height: 125px;
-	padding: 50px 15px;
-	float: left;
+main {
+	display: block;
+	margin-right: 25px;
 }
-.button_panel img {
-	width: 25px;
-	height: 25px;
+h1 { 
+	font-size: 150%;
 }
-#display_panel {
-	height: 125px;
-	width: 100px;
-	overflow: hidden;
-	float: left;
+h2 {
+	font-size: 120%;
+	padding: .25em 0 .25em 25px;
+	cursor: pointer;
+	background: url(images/plus.png) no-repeat left center;
 }
-#image_list {
-	left: 0px;
-	position: relative;   
-    width: 900px;
-    list-style: none;  
+h2.minus {
+	background: url(images/minus.png) no-repeat left center;
 }
-#image_list li	{
-	float: left;
-	width: 100px;
+div {
+	display: none;
 }
-#image_list li img	{
-	width: 95px;
-	
+div.open {
+	display: block;
+}
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
 }
